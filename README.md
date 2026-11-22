@@ -1,26 +1,56 @@
-### Syed Waleed
+<h1 align="center">Syed Waleed</h1>
 
-I build systems where performance is the feature: GPU media pipelines, AI passes that run
-once and are cached, and tools that agents and people can drive equally well.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=E8E2D6&center=true&vCenter=true&width=640&lines=AI+engineer;GPU+video+pipelines+that+render+at+240+fps;RAG+systems+over+thousands+of+documents;Tools+that+agents+and+people+drive+together;Learning+IoT+%2B+robotics" alt="AI engineer · GPU video pipelines · RAG systems · agent tooling · learning IoT and robotics">
+</p>
+
+<p align="center">
+I build systems where performance is the feature: AI passes that run once and are cached,
+GPU pipelines measured frame by frame, and interfaces that an AI agent and a person can use
+through the same functions. Now also learning IoT and robotics, where the same habits
+(measure first, bounded resources, real-time loops) carry over to hardware.
+</p>
 
 ---
 
-**[kinetix-html](https://github.com/SyedWaleed-X/kinetix-html)**: a local-first video editor where an edit is code.
+### KinetixHTML: a video editor where an edit is code
+
+<a href="https://github.com/SyedWaleed-X/kinetix-html">
+  <img src="https://raw.githubusercontent.com/SyedWaleed-X/kinetix-html/main/docs/media/monsters.webp" width="100%" alt="MONSTERS, an anime edit made through KinetixHTML's MCP tools: a red-ink impact frame and TITAN slammed behind the rotoscoped Colossal Titan">
+</a>
 
 Every edit is an `edit.html` (HTML, CSS, JS, GLSL) rendered frame-exact on the GPU and
-encoded in-page with WebCodecs. Only the 1-second segments whose draw commands changed
-re-render. Rotoscoping (SAM 2.1 + MatAnyone2), depth and optical flow are cached passes. One
-typed Python capability registry generates both the CLI and an MCP server, so an AI agent
-can cut, look at frames, patch and export through the same functions a person uses in the
-Studio.
+encoded in the browser with WebCodecs; only the 1-second segments whose draw commands changed
+re-render. Rotoscoping (SAM 2.1 + MatAnyone2), depth and optical flow are cached AI passes.
+One typed Python capability registry generates both the CLI and an MCP server, so an agent
+cuts, looks at frames, patches and exports through the same functions a person uses in the
+Studio. The edit above was made that way, end to end.
 
-Measured on one RTX 3060 (Windows 11):
-
-| | |
+| Measured on one RTX 3060 | |
 |---|---|
-| 60 s 1080p30 edit, full render | 12.8-13.6 s (HyperFrames 0.9.9: 122.4 s, Remotion 4.0.540: 244.3 s) |
-| 50 s 1080p60 anime edit, full render | 240 fps |
-| change one value, re-export | 1.2 s (1 of 50 segments) |
-| test suite | 295 tests, real browser + GPU checks |
+| 60 s 1080p30 composition, full render | **12.8-13.6 s** (HyperFrames 0.9.9: 122.4 s · Remotion 4.0.540: 244.3 s) |
+| Change one value, re-export | **2 of 48 segments, 2.3 s** (rivals re-render everything) |
+| 47 s 1080p60 anime edit with 69 cuts, 6 shader transitions, 9 type styles | **142 fps** full render |
+| Test suite | **295** tests with real browser + GPU checks |
 
-Python · JavaScript · WebGL2 / GLSL · WebCodecs · PyTorch · FFmpeg · MCP
+**[→ kinetix-html](https://github.com/SyedWaleed-X/kinetix-html)**
+
+---
+
+### Other work
+
+**[ai-keystone-project](https://github.com/SyedWaleed-X/ai-keystone-project)**: a RAG-powered
+corporate API. A REST service (FastAPI, PostgreSQL, Docker) with CRUD over company data and a
+question-answering endpoint that does semantic search over a document library (txt, pdf) and
+hands only the relevant passages to Gemini, so answers come from private data the model was
+never trained on, however many documents there are.
+
+**[dealersflow-fyp](https://github.com/SyedWaleed-X/dealersflow-fyp)**: my final year project
+(in progress).
+
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,fastapi,postgres,docker,pytorch,git,linux&perline=10" alt="Python, JavaScript, HTML, CSS, FastAPI, PostgreSQL, Docker, PyTorch, Git, Linux">
+</p>
+<p align="center"><sub>WebGL2 / GLSL · WebCodecs · FFmpeg · MCP · RAG · learning IoT + robotics</sub></p>

@@ -10,8 +10,7 @@ hardware and IoT, because I want the things I make to work off the screen too.
 </p>
 
 <p align="center">
-I also edit video, and read a lot of science and philosophy. Jack of all trades, with AI as the
-one I keep coming back to.
+I also edit video, and read a lot of science and philosophy.
 </p>
 
 ---

@@ -16,15 +16,18 @@ through the same functions. Now also learning IoT and robotics, where the same h
 ### KinetixHTML: a video editor where an edit is code
 
 <a href="https://github.com/SyedWaleed-X/kinetix-html">
-  <img src="https://raw.githubusercontent.com/SyedWaleed-X/kinetix-html/main/docs/media/monsters.webp" width="100%" alt="MONSTERS, an anime edit made through KinetixHTML's MCP tools: a red-ink impact frame and TITAN slammed behind the rotoscoped Colossal Titan">
+  <img src="media/burn.webp" width="100%" alt="LET THE WORLD BURN, an anime edit made with KinetixHTML: the sung words LET IT ALL BURN land on their beats, the Colossal Titan burns, and a figure turns to ash">
 </a>
+
+<p align="center"><sub><b>LET THE WORLD BURN</b>, 6 s of a 45 s edit. Fan edit of <i>Attack on Titan</i> and
+<i>Mushoku Tensei</i> for demonstration; the anime belongs to its owners.</sub></p>
 
 Every edit is an `edit.html` (HTML, CSS, JS, GLSL) rendered frame-exact on the GPU and
 encoded in the browser with WebCodecs; only the 1-second segments whose draw commands changed
 re-render. Rotoscoping (SAM 2.1 + MatAnyone2), depth and optical flow are cached AI passes.
 One typed Python capability registry generates both the CLI and an MCP server, so an agent
 cuts, looks at frames, patches and exports through the same functions a person uses in the
-Studio. The edit above was made that way, end to end.
+Studio. The edit above was made with it.
 
 | Measured on one RTX 3060 | |
 |---|---|

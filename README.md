@@ -9,9 +9,7 @@ I build AI systems, plus whatever software they need around them. Right now I'm 
 hardware and IoT, because I want the things I make to work off the screen too.
 </p>
 
-<p align="center">
-I also edit video, and read a lot of science and philosophy.
-</p>
+
 
 ---
 
